@@ -45,6 +45,21 @@
                 color: chartreuse;
                 background-color: steelblue;
             }
+
+            p.warning
+            {
+                color: seagreen;
+            }
+            p.warning::before
+            {
+                content: "前面";
+                color: tomato;
+            }
+            p.warning::after
+            {
+                content: "後面";
+                color: tomato;
+            }
     </style>
 </head>
 
@@ -76,6 +91,8 @@
 
     </blockquote>
     <a href="http://www.google.com.tw">google </a>
+
+    <p class="warning">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
 
     <script src="" async defer></script>
