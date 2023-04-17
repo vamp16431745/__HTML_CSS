@@ -74,6 +74,7 @@ main {
     line-height: 1.8em;
     color: #555;
     padding: 1em;
+    border: double 4px #EADDC4;
 }
 
 h3 {
