@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+
+html{
+    box-sizing: border-box;  /*不能繼承*/
+
+}
+
+*{                            /*所有元素*/
+    box-sizing: inherit;     /*繼承*/
+}
+
 body {
     font-family: Georgia, serif;
     font-size: 100%;
