@@ -99,6 +99,12 @@ main {
     padding: 1em;
     border: double 4px #EADDC4;
     margin: 2.5%;
+
+}
+
+main img {
+    float: left;
+    margin: 0 1em 1em 0;
 }
 
 h3 {
