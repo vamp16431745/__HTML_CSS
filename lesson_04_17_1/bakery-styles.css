@@ -95,6 +95,7 @@ aside {
     background-color: #F6F3ED;
     padding: 1em;
     padding-left: 45px;
+    border-top-right-radius: 25px;
 }
 
 /* misc styles */
