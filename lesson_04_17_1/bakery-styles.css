@@ -17,6 +17,15 @@ body {
 }
 
 /* link styles */
+a
+{
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    padding-bottom: .2em;
+}
+
+
+
 a:link,
 a:visited {
     color: #DC6903;
@@ -81,6 +90,8 @@ h3 {
     text-transform: uppercase;
     letter-spacing: .2em;
     color: #7A0002;
+    border-top:1px solid;
+    border-left: 1px solid;
 }
 
 p.more {
