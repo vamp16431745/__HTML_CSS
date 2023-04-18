@@ -25,6 +25,13 @@ nav ul{
     display: flex;
 }
 
+
+nav ul li a{
+    display: block;
+    border: 1px solid;
+
+}
+
 /* link styles */
 a:link,
 a:visited {
