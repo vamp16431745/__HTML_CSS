@@ -1,83 +1,58 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Documents</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
+        #container{
+            display: flex;
+            flex-wrap:wrap;
+        }
+
         .box1{
             background-color:red;
-            
+            width:25%;
         }
         .box2{
-            background-color: orange;
-            
+            background-color:orange;
+            width:25%;
         }
         .box3{
-            background-color: yellow;
-            
+            background-color:yellow;
+            width:25%;
         }
         .box4{
-            background-color: green;
-            
+            background-color:green;
+            width:25%;
         }
         .box5{
-            background-color: blue;
-            
-        }
-        #container
-        {
-            display: flex;   /*容器設為flex*/
-           
+            background-color:blue;
+            width:25%;
         }
     </style>
-
 </head>
 
 <body>
     <div id="container">
         <div class="box box1">
             1
-
-
         </div>
-
-        <div id="container">
-            <div class="box box2">
-                2
-
-
-            </div>
-
-            <div id="container">
-                <div class="box box3">
-                    3
-
-
-                </div>
-
-                <div id="container">
-                    <div class="box box4">
-                        4
-
-
-                    </div>
-                    <div id="container">
-                        <div class="box box5">
-                            5
-
-
-                        </div>
-
-                    </div>
-
-
-
-
+        <div class="box box2">
+            2
+        </div>
+        <div class="box box3">
+            3
+        </div>
+        <div class="box box4">
+            4
+        </div>
+        <div class="box box5">
+            5
+        </div>
+    </div>
 </body>
 
 </html>
