@@ -21,6 +21,10 @@ nav ul{
     list-style-type: none;
 }
 
+nav ul{
+    display: flex;
+}
+
 /* link styles */
 a:link,
 a:visited {
