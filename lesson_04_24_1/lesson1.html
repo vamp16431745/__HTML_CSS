@@ -54,9 +54,12 @@
 
         section#banner {
             box-sizing: border-box;
-            background-color: antiquewhite;
             margin: 1em auto;
             width: 75%;
+        }
+
+        section#banner div {
+            text-align: center;
         }
 
         section#banner h3 {
@@ -74,16 +77,10 @@
 
 
 
-        section#banner div::after {
-            /*增加為元素隔開*/
-            content: "";
-            display: block;
-            clear: both;
 
-        }
 
         section#banner div a {
-            display: block;
+            display: inline-block;
             padding: 1em 1.5em;
             width: 5em;
             background-color: #40AAEA;
@@ -91,7 +88,7 @@
             font-weight: bolder;
             color: #ffffff;
             border-radius: 3em;
-            float: left;
+
         }
 
 
