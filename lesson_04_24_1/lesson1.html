@@ -8,14 +8,40 @@
     <link rel="stylesheet" href="css/normalize.css">
     <title>Bookstrap example</title>
     <style>
+        body{
+            margin: 2em 10% 2em 5%;
+        }
+        
+        
+        header ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            border-bottom: solid #cccc 1px;
+            padding-bottom: 1.5em;
+        }
+        
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        #logo
+        {
+            margin-right:auto ;
+
+        }
 
     </style>
 </head>
 
 <body>
     <header>
-        <div><img src="logo.png" alt="logo"></div>
+        
         <ul>
+            <li id="logo"><img src="logo.png" alt="logo" width="160" ></li>
             <li><a href="#">Home</a></li>
 
 
