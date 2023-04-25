@@ -8,15 +8,15 @@
     <style>
         #layout{
             display: grid;
-            grid-template-columns:
+            grid-template-columns: /*為行命名*/
             [ads]200px 
             [main]500px 
             [links]200px ;
-            grid-template-rows:
+            grid-template-rows:    /*為列命名*/
             [header-start] 100px 
             [content-start]400px 
             [footer-start]100px;
-            grid-template-areas: 
+            grid-template-areas:  /*為網格區塊命名*/
             "header header header"
             "ads main links"
             "footer footer footer ";
