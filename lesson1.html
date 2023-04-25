@@ -10,32 +10,60 @@
         #container {
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 10em 15em 60em 10em;
+            grid-template-rows: 10em 15em 60em 15em 5em;
             grid-template-areas:
                 "header"
                 "aside"
                 "main"
+                "links"
                 "footer";
         }
 
-        header
-        {
+        header {
             grid-area: header;
+            background-color: red;
         }
 
-        aside
-        {
+        aside {
             grid-area: aside;
+            background-color: orange;
         }
 
-        main
-        {
+        main {
             grid-area: main;
+            background-color: yellow;
         }
 
-        footer
-        {
+        section {
+            grid-area: links;
+            background-color: green;
+        }
+
+        footer {
             grid-area: footer;
+            background-color: blue;
+        }
+
+        @media (max-width: 768px) {
+            /*平板和筆電*/
+
+            #container {
+                display: grid;
+                grid-template-columns: 20em 1fr;
+                grid-template-rows: 10em 60em 15em 5em;
+                grid-template-areas:
+                    "header header"
+                    "aside main"
+                    "links links"
+                    "footer footer";
+            }
+
+
+        }
+
+        @media (max-width: 1200px) {
+            /*桌機*/
+
         }
     </style>
 
@@ -56,6 +84,9 @@
         <main>
             <h1>Main</h1>
         </main>
+        <section>
+            <h1>links</h1>
+        </section>
 
         <footer>
             <h1>Footer</h1>
