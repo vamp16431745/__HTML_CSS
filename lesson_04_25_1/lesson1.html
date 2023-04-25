@@ -9,9 +9,9 @@
         #layout{
             display: grid;
             grid-template-columns: /*為行命名*/
-            [ads]200px 
-            [main]500px 
-            [links]200px ;
+            [ads]1fr 
+            [main]2fr /*fr把剩餘的空缺依比例占滿*/
+            [links]1fr ;
             grid-template-rows:    /*為列命名*/
             [header-start] 100px 
             [content-start]400px 
