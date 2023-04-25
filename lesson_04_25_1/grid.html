@@ -26,8 +26,8 @@
             margin-left: 5%;
             margin-right: 5%;
             display: grid;
-            grid-template-rows:3em 20px 150px 300px 5em ;
-            grid-template-columns: 1fr 20px 150px 20px 150px 20px 150px;
+            grid-template-rows:3em 20px [main-start]150px 300px 5em[main-end] ;
+            grid-template-columns: [main-start]1fr[main-end] 20px 150px 20px 150px 20px 150px;
 
         }
 
@@ -51,6 +51,15 @@
         #figA{
             grid-row: 3/4;
             grid-column: 3/4;
+        }
+        main{
+            grid-row: main-start/main-end;
+            grid-column: main-start/main-end;
+        }
+
+        footer{
+            grid-row:5/6;
+            grid-column: 3/-1;
         }
 
 
@@ -168,9 +177,9 @@
 
             <p>當您在麵包店時，我們鼓勵您嘗試一下我們的特色麵包世界。 如果您無法前往商店，我們的許多麵包都可以在線購買。</p>
             <p>為您提供新鮮、獨特的麵包是 Black Goose Bakery 引以為豪的事情之一。</p>
-            <!--
+            
 <p>我們的麵包每天由最優質的全麥麵粉、水、鹽和酵母或酵母發酵劑製成。 簡單自然，從不添加任何防腐劑。 耐心是實現適當發酵水平和將每條麵包烘烤至完美的關鍵。 提供全麥、酵母、橄欖麵包、經典黑麥和土豆洋蔥。</p>
--->
+
         </main>
 
         <figure id="figA"><img src="images/uzbek_150.jpg"></figure>
