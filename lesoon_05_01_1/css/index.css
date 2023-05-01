@@ -47,6 +47,21 @@ body
     flex-wrap: wrap;  /*允許換行*/
 }
 
+#cards section
+{
+    flex: 0 1 100%; /*100%代表只有1列 50%2列*/
+}
+
+#cards section.s1
+{background-color: darkorchid;
+
+}
+
+#cards section.s2
+{background-color: cadetblue;
+
+}
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     #root{
