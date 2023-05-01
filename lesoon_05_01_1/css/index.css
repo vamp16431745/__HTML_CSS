@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     /*直行1行*/
-    grid-template-rows: 300px auto 200px;
+    grid-template-rows: auto auto 200px;
     /*橫列3列*/
     grid-template-areas:
         "header"
@@ -76,6 +76,12 @@ header h2
     line-height: 1.5em;
     color: rgb(239, 14, 183);
     margin-top: 2em ;
+}
+header img
+{
+    display: block;
+    margin: 0 auto 2em; /*上 左右 下*/
+
 }
 
 /*Small devices (landscape phones, 576px and up)*/
