@@ -50,6 +50,7 @@ body {
 #cards section {
     flex: 0 1 100%;
     /*100%代表只有1列 50%2列*/
+    border: 1px black solid;
 }
 
 #cards section.s1 {
@@ -60,6 +61,12 @@ body {
 #cards section.s2 {
     background-color: cadetblue;
 
+}
+
+#cards h1
+{
+    text-align: center;
+    margin: 2em 0em;
 }
 
 /*Small devices (landscape phones, 576px and up)*/
