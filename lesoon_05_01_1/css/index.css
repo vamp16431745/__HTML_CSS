@@ -1,9 +1,44 @@
+body
+{
+    background-color: aqua;
+}
+
 #root{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
+#layout
+{
+    display: grid;
+    grid-template-columns: 1fr; /*直行1行*/
+    grid-template-rows: 300px 500px 200px;  /*橫列3列*/
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer"
+    
+
+}
+
+#layout header
+{
+    grid-area: header;
+    background-color: brown;
+}
+
+#layout main
+{
+    grid-area: content ;
+    background-color: crimson;
+}
+
+#layout footer
+{
+    grid-area: footer;
+    background-color: deeppink;
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
