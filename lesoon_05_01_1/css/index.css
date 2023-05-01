@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: rgb(66, 220, 89);
 }
 
 #root {
@@ -54,12 +54,12 @@ body {
 }
 
 #cards section.s1 {
-    background-color: darkorchid;
+    background-color: rgb(196, 113, 23);
 
 }
 
 #cards section.s2 {
-    background-color: cadetblue;
+    background-color: rgb(34, 25, 205);
 
 }
 
