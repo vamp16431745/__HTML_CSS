@@ -40,6 +40,13 @@ body
     background-color: deeppink;
 }
 
+#cards
+{
+    display: flex;      
+    flex-direction: row;   /*flex方向為橫向*/
+    flex-wrap: wrap;  /*允許換行*/
+}
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     #root{
