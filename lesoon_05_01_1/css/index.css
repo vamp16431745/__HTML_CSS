@@ -1,100 +1,116 @@
-body
-{
+body {
     background-color: aqua;
 }
 
-#root{
+#root {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#layout
-{
+#layout {
     display: grid;
-    grid-template-columns: 1fr; /*直行1行*/
-    grid-template-rows: 300px auto 200px;  /*橫列3列*/
-    grid-template-areas: 
-    "header"
-    "content"
-    "footer"
-    
+    grid-template-columns: 1fr;
+    /*直行1行*/
+    grid-template-rows: 300px auto 200px;
+    /*橫列3列*/
+    grid-template-areas:
+        "header"
+        "content"
+        "footer"
+
 
 }
 
 #layout header
-{
+
+    {
     grid-area: header;
     background-color: brown;
 }
 
-#layout main
-{
-    grid-area: content ;
+#layout main {
+    grid-area: content;
     background-color: crimson;
 }
 
-#layout footer
-{
+#layout footer {
     grid-area: footer;
     background-color: deeppink;
 }
 
-#cards
-{
-    display: flex;      
-    flex-direction: row;   /*flex方向為橫向*/
-    flex-wrap: wrap;  /*允許換行*/
+#cards {
+    display: flex;
+    flex-direction: row;
+    /*flex方向為橫向*/
+    flex-wrap: wrap;
+    /*允許換行*/
 }
 
-#cards section
-{
-    flex: 0 1 100%; /*100%代表只有1列 50%2列*/
+#cards section {
+    flex: 0 1 100%;
+    /*100%代表只有1列 50%2列*/
 }
 
-#cards section.s1
-{background-color: darkorchid;
+#cards section.s1 {
+    background-color: darkorchid;
 
 }
 
-#cards section.s2
-{background-color: cadetblue;
+#cards section.s2 {
+    background-color: cadetblue;
 
 }
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-    #root{
-    width: 100%;}
+@media (min-width: 576px) {
+    #root {
+        width: 100%;
+    }
 
-    
- }
-
- /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {  
-    #root{
-    max-width: 720px;
 
 }
- }
 
- /*Large devices (desktops, 992px and up)*/
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #root {
+        max-width: 720px;
+    }
+
+    #cards section
+    {
+        flex:0 1 50%;
+
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    #root{
-        max-width: 960px;}
-    
-  }
+    #root {
+        max-width: 960px;
+    }
 
- /*X-Large devices (large desktops, 1200px and up)*/
+    
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    #root{
-        max-width: 1140px;}
-    
-  }
+    #root {
+        max-width: 1140px;
+    }
+    #cards section
+    {
+        flex: 0 1 33%;
+    }
 
- /*XX-Large devices (larger desktops, 1400px and up)*/
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-    #root{
-        max-width: 1320px;}
-    
-  }
+    #root {
+        max-width: 1320px;
+    }
+
+}
