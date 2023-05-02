@@ -114,6 +114,14 @@ footer ul li
     padding: 0 1em;  /*上下0  左右1em*/
 }
 
+footer address
+{
+    text-align: center;
+    font-size: small;
+    color: lightgrey;
+
+}
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     #root {
