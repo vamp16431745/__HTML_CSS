@@ -94,15 +94,11 @@ footer ul
     justify-content: center;
 }
 
-footer ul a:link
-{
-    text-decoration: none;
-    color: black;
-}
+
 footer ul a:hover
 {
-    text-decoration: none;
-    color: black;
+    text-decoration: none;  /*鼠標指到上面時變色*/
+    color: green;
 }
 
 footer ul img, footer ul span
