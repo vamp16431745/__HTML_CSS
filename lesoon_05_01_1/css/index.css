@@ -84,6 +84,12 @@ header img
 
 }
 
+footer ul
+{
+    margin: 0;
+    padding: 0;
+}
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     #root {
