@@ -93,7 +93,7 @@ footer ul
     flex-wrap: nowrap;
 }
 
-foot ul a:link
+footer ul a:link
 {
     text-decoration: none;
     color: black;
@@ -102,7 +102,7 @@ foot ul a:link
 footer ul img, footer ul span
 {
     display: block;
-    display: block;
+
     margin-left: 0 auto;
     text-align: center;
 
