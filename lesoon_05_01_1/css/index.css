@@ -93,6 +93,12 @@ footer ul
     flex-wrap: nowrap;
 }
 
+foot ul a:link
+{
+    text-decoration: none;
+    color: black;
+}
+
 footer ul img, footer ul span
 {
     display: block;
