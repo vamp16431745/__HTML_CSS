@@ -97,6 +97,8 @@ footer ul img, footer ul a
 {
     display: block;
     display: block;
+    margin-left: auto;
+    margin-right: 0 auto;
 
 }
 
