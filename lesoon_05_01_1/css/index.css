@@ -88,6 +88,9 @@ footer ul
 {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 /*Small devices (landscape phones, 576px and up)*/
