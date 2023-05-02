@@ -93,6 +93,12 @@ footer ul
     flex-wrap: nowrap;
 }
 
+footer ul img, footer ul a
+{
+    display: block;
+
+}
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     #root {
