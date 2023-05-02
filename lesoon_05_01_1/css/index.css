@@ -111,6 +111,7 @@ footer ul img, footer ul span
 footer ul li
 {
     list-style: none;
+    padding: 0 1em;  /*上下0  左右1em*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
